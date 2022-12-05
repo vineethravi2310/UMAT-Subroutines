@@ -50,8 +50,8 @@
       
       DO I=1, NTENS
           DO J=1, NTENS
-              STRESS(I) = STRESS(I) + DDSDDE(I, J)*DSTRAN(J) ! UPDATING STRESS TENSOR   
-              END DO
+              STRESS(I) = STRESS(I) + DDSDDE(I, J)*DSTRAN(J) ! UPDATING STRESS TENSOR
+          END DO
       END DO
       
       RETURN
